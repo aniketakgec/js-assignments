@@ -108,8 +108,8 @@ function getFirstChar(value) {
  *   '\tHello, World! ' => 'Hello, World!'
  */
 function removeLeadingAndTrailingWhitespaces(value) {
-    value=value.trimStart();
-    value=value.trimEnd();
+    value=value.trimLeft();
+    value=value.trimRight();
     return value;
 }
 
